@@ -1,0 +1,18 @@
+vize = int(input("Vize notunuzu giriniz: "))
+final = int(input("Final notunu giriniz: "))
+ortalama = (vize * 0.4) + (final*0.6)
+# eğer final 40'dan küçükse kullanıcı kaldı
+# eğer ortalama 50'den küçükse kullanıcı kaldı
+# eğer vize finalin 2 katı ise kullanıcı kaldı
+# bunun dışındaki tüm durumlarda kullanıcı geçti yazdırmak istiyoruz.
+
+if final <40:
+    print("Kaldınız")
+elif ortalama < 50:
+    print("Kaldınız")
+elif (vize*2) == final:
+    print("Kaldınız")
+else:
+    print("Geçtiniz")
+
+#karar yapıları end
