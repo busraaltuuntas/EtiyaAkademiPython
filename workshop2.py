@@ -10,7 +10,7 @@ if final <40:
     print("Kaldınız")
 elif ortalama < 50:
     print("Kaldınız")
-elif (vize*2) == final:
+elif vize == final*2:
     print("Kaldınız")
 else:
     print("Geçtiniz")
